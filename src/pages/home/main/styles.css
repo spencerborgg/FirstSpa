@@ -1,31 +1,33 @@
 main {
   height: 100%;
-  grid-area: main;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
 }
 .textBody {
-  height: 100%;
   background-color: bisque;
   display: flex;
-  flex-grow: 3;
-  justify-content: space-evenly;
-  align-items: center;
 }
 .realtext {
-  height: 100%;
+  width: 35%px;
+  min-height: 50vh;
   background-color: orange;
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-grow: 3;
 }
 .loginBox {
-  height: 100%;
+  width: 35%;
   background-color: chartreuse;
-  display: flex;
   flex-grow: 1;
-  justify-content: space-evenly;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.loginBox.* {
+  margin-bottom: 25px;
+}
+.loginBox :last-child {
+  margin-bottom: 0;
 }

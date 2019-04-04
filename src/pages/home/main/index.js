@@ -9,9 +9,11 @@ class main extends Component {
           <div className="realtext">
             welcome to bamazon where we have the best price ever! :)
           </div>
-          <div className="loginBox">
-            <form />
-          </div>
+          <form className="loginBox">
+            <input type={Text} placeholder="username" />
+            <input type="password" placeholder="password" />
+            <input type="button" />
+          </form>
         </div>
       </main>
     );
